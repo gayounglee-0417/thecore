@@ -74,7 +74,7 @@ export default function IntelligenceTestScreen({ onFinish }) {
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
   const [inputAnswer, setInputAnswer] = useState('');
-  const [showManual, setShowManual] = useState(false); // ✅ 지침서 표시용
+  const [showManual, setShowManual] = useState(false); //지침서
   const [sound, setSound] = useState(null);
 
   const q = questions[current];
