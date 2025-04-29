@@ -25,7 +25,7 @@ export default function TrapDeathScreen({ onRestart }) {
     const playSound = async () => {
       try {
         const { sound } = await Audio.Sound.createAsync(
-          require('../assets/sounds/속았지.mp3') // ✅ 사운드 파일 경로 확인
+          require('../assets/sounds/속았지.mp3') //사운드 출력
         );
         soundObj = sound;
         setSound(sound);
